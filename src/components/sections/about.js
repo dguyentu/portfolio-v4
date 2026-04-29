@@ -125,7 +125,21 @@ const About = () => {
     sr.reveal(revealContainer.current, srConfig());
   }, []);
 
-  const skills = ['JavaScript (ES6+)', 'TypeScript', 'React', 'Eleventy', 'Node.js', 'WordPress'];
+  const skills = [
+    'JavaScript',
+    'TypeScript',
+    'React',
+    'Eleventy',
+    'Node.js',
+    'WordPress',
+    'Python',
+    'C# & DOTNET',
+    'Optimizely',
+    'Microsoft D365',
+    'Azure',
+    'Google Tags',
+    'SQL & NoSQL',
+  ];
 
   return (
     <StyledAboutSection id="about" ref={revealContainer}>
@@ -135,33 +149,35 @@ const About = () => {
         <StyledText>
           <div>
             <p>
-              Hello! My name is Brittany and I enjoy creating things that live on the internet. My
-              interest in web development started back in 2012 when I decided to try editing custom
-              Tumblr themes — turns out hacking together a custom reblog button taught me a lot
-              about HTML &amp; CSS!
+              With over eight years of experience as a Full-Stack Software Developer, I specialize
+              in driving digital transformation by bridging the gap between complex technical
+              architecture and seamless user experiences. I don't just build applications; I
+              engineer scalable digital systems that modernize legacy workflows and unlock new
+              business value. My approach combines a meticulous 'logic-first' philosophy with a
+              commitment to modernizing the frontend experience to meet modern enterprise standards.
             </p>
 
             <p>
-              Fast-forward to today, and I’ve had the privilege of working at{' '}
-              <a href="https://us.mullenlowe.com/">an advertising agency</a>,{' '}
-              <a href="https://starry.com/">a start-up</a>,{' '}
-              <a href="https://www.apple.com/">a huge corporation</a>, and{' '}
-              <a href="https://scout.camd.northeastern.edu/">a student-led design studio</a>. My
-              main focus these days is building accessible, inclusive products and digital
-              experiences at <a href="https://upstatement.com/">Upstatement</a> for a variety of
-              clients.
+              I’ve had the privilege of working at{' '}
+              <a href="https://www.vectorsecurity.com">
+                the 4th largest security & video surveillance monitoring company in the USA
+              </a>
+              ,{' '}
+              <a href="https://www.raymourflanigan.com">
+                a commercial real estate & national furniture retail giant{' '}
+              </a>
+              ,{' '}
+              <a href="https://www.zones.com/site/home/index.html">
+                a major global provider of IT services
+              </a>
+              , and <a href="https://www.albanymed.org">a hospital/ medical university</a>.<br></br>
+              <br></br>
+              My main focus is bridging the gap between legacy systems and AI-driven innovation. I
+              build modern UI/UX integrated with scalable architecture, allowing organizations to
+              leverage AI tools to accelerate their goals while optimizing bottom-line expenditures.
             </p>
 
-            <p>
-              I also recently{' '}
-              <a href="https://www.newline.co/courses/build-a-spotify-connected-app">
-                launched a course
-              </a>{' '}
-              that covers everything you need to build a web app with the Spotify API using Node
-              &amp; React.
-            </p>
-
-            <p>Here are a few technologies I’ve been working with recently:</p>
+            <p>My areas of expertise:</p>
           </div>
 
           <ul className="skills-list">
@@ -173,7 +189,7 @@ const About = () => {
           <div className="wrapper">
             <StaticImage
               className="img"
-              src="../../images/me.jpg"
+              src="../../images/me.png"
               width={500}
               quality={95}
               formats={['AUTO', 'WEBP', 'AVIF']}
