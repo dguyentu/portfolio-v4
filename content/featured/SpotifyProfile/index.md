@@ -1,15 +1,19 @@
 ---
 date: '2'
-title: 'Spotify Profile'
-cover: './demo.png'
-github: 'https://github.com/bchiang7/spotify-profile'
-external: 'https://spotify-profile.herokuapp.com/'
+title: 'Raymour & Flanigan Commercial Site'
+cover: './RF.png'
+github: ''
+external: 'https://www.raymourflanigan.com/raymour-services/rf-forbusiness'
 tech:
   - React
-  - Styled Components
-  - Express
-  - Spotify API
-  - Heroku
+  - node.js
+  - c#
+  - dotnet
+  - snowflake db
 ---
 
-A web app for visualizing personalized Spotify data. View your top artists, top tracks, recently played tracks, and detailed audio information about each track. Create and save new playlists of recommended tracks based on your existing playlists and more.
+Developed a dynamic lead generation and B2B portal using React, Node.js, and Snowflake DB to automate the commercial client lifecycle for Raymour & Flanigan.
+
+Engineered a .NET/C# automation engine that transitions captured leads into a self-service ecosystem for invoice management, autopay enrollment, and paperless billing.
+
+Integrated real-time data middleware to drive personalized user journeys, streamlining the onboarding process from initial lead capture to full account management.
