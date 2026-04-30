@@ -5,7 +5,6 @@ company: 'Vector Security'
 location: 'Warrendale, PA'
 range: 'July 2023 - Present'
 url: 'https://www.vectorsecurity.com'
-cta: ''
 ---
 
 - Digital Transformation & Strategy: Partner with Business Directors and stakeholders to reimagine in-house infrastructure and internal applications, transitioning legacy systems to a modular, high-performance React.js CMS block architecture.

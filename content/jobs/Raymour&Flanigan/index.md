@@ -5,7 +5,6 @@ company: 'Raymour & Flanigan'
 location: 'Syracuse, NY'
 range: 'June 2021 - Jul 2023'
 url: 'https://www.raymourflanigan.com'
-cta: ''
 ---
 
 - Systems Architecture Overhaul: Collaborated with Business Directors and key stakeholders to architect a complete reimagining of legacy in-house applications and infrastructure, successfully migrating to a modular React.js CMS block system.

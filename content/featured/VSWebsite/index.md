@@ -2,13 +2,14 @@
 date: '1'
 title: 'Vector Security Website'
 cover: './vs.png'
-external: 'https://www.vectorsecurity.com'
-cta: ''
+github: ''
+external: 'https://www.vectorsecurity.com/business-security/'
 tech:
-  - REACT
-  - C#
+  - React
+  - c#
   - dotnet
-  - Optimizely
+  - optimizely
+  - D365
 ---
 
 Architected a unified digital platform at **vectorsecurity.com** to consolidate **ADS Security** and **Vector Security** legacy applications following their 2019 merger.
