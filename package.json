@@ -18,7 +18,7 @@
     "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
     "start": "npm run develop",
     "serve": "gatsby serve",
-    "clean": "rm -rf .cache public",
+    "clean": "rm -rf .cache public node_modules/.cache/gh-pages",
     "reinstall": "rm -rf node_modules package-lock.json .cache public && npm install && mkdir .cache",
     "deploy": "npm run clean && gatsby build --prefix-paths && npx gh-pages -d public",
     "prepare": "husky install",
