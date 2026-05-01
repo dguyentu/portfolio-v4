@@ -1,12 +1,12 @@
 const config = require('./src/config');
 
 module.exports = {
-  pathPrefix: '/profile-v4',
+  pathPrefix: '/portfolio-v4',
   siteMetadata: {
     title: 'Daniel Tu',
     description:
       'Daniel Tu is a Software Engineer who specializes in building digital applications.',
-    siteUrl: 'https://danieltru.com', // TODO: Update to your domain
+    siteUrl: 'https://dguyentu.github.io/portfolio-v4',
     image: '/og.png', // Path to your image you placed in the 'static' folder
     twitterUsername: '@danieltru', // TODO: Update to your twitter handle
   },
