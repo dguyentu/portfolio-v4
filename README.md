@@ -109,6 +109,24 @@ This error typically indicates a corrupted Gatsby cache or a conflict with files
     npx gatsby develop
     ```
 
+### 2. `Error: Cannot find module 'node:stream'`
+
+This error occurs when a dependency tries to use the `node:` prefix for built-in modules, which is not supported in older Node.js versions (like v14).
+
+**Solution:**
+
+1.  **Update Node.js Version:** Ensure your `.nvmrc` is set to `16.20.2` and you are actively using it (`nvm use`).
+2.  **Dependency Overrides:** The `package.json` has been updated with `overrides` for `cheerio` and `parse5-parser-stream` to pin them to compatible versions.
+3.  **Clean and Reinstall:**
+    ```sh
+    rm -rf node_modules package-lock.json
+    npm install
+    ```
+4.  **Start Development Server:**
+    ```sh
+    npm start
+    ```
+
 ### 3. `Error in function useStaticQuery: The result of this StaticQuery could not be fetched.`
 
 This error occurs when Gatsby's data layer is out of sync with the frontend. It is common after modifying markdown files or `gatsby-config.js`, especially if a previous process (a "zombie" process) didn't close properly and is still holding onto port 8000.
@@ -130,24 +148,6 @@ This error occurs when Gatsby's data layer is out of sync with the frontend. It 
 3.  **Start Server:**
     ```sh
     npx gatsby develop
-    ```
-
-### 2. `Error: Cannot find module 'node:stream'`
-
-This error occurs when a dependency tries to use the `node:` prefix for built-in modules, which is not supported in older Node.js versions (like v14).
-
-**Solution:**
-
-1.  **Update Node.js Version:** Ensure your `.nvmrc` is set to `16.20.2` and you are actively using it (`nvm use`).
-2.  **Dependency Overrides:** The `package.json` has been updated with `overrides` for `cheerio` and `parse5-parser-stream` to pin them to compatible versions.
-3.  **Clean and Reinstall:**
-    ```sh
-    rm -rf node_modules package-lock.json
-    npm install
-    ```
-4.  **Start Development Server:**
-    ```sh
-    npm start
     ```
 
 ### 4. Deployment Errors (`RPC failed` or `HTTP 400`)
