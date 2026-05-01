@@ -159,7 +159,7 @@ This error typically occurs when the size of the `public` folder exceeds the buf
 SSH is more stable for large transfers.
 
 ```sh
-git remote set-url origin git@github.com:dguyentu/portfolio-v4.git
+git remote set-url origin git@github.com:YOUR_USERNAME/YOUR_REPOSITORY_NAME.git
 ```
 
 **Solution B: Increase Git Buffer**
