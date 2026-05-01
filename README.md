@@ -156,6 +156,20 @@ This error occurs when a dependency tries to use the `node:` prefix for built-in
     npm start
     ```
 
+### 4. `error: RPC failed; HTTP 400 curl 22` during Deployment
+
+This error occurs when the size of the `public` folder being pushed to GitHub via the `gh-pages` script is larger than Git's default HTTP post buffer.
+
+**Solution:**
+
+Increase the Git buffer size locally:
+
+```sh
+git config http.postBuffer 524288000
+```
+
+Then run `npm run deploy` again.
+
 ## 🎨 Color Reference
 
 ## 🎨 Color Reference
