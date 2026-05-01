@@ -77,7 +77,7 @@ const Footer = () => {
     if (process.env.NODE_ENV !== 'production') {
       return;
     }
-    fetch('https://api.github.com/repos/dguyentu/profile-v4')
+    fetch('https://api.github.com/repos/dguyentu/portfolio-v4')
       .then(response => response.json())
       .then(json => {
         const { stargazers_count, forks_count } = json;
@@ -105,7 +105,7 @@ const Footer = () => {
       </StyledSocialLinks>
 
       <StyledCredit tabIndex="-1">
-        <a href="https://github.com/dguyentu/profile-v4">
+        <a href="https://github.com/dguyentu/portfolio-v4">
           <div>Copyright &copy; {new Date().getFullYear()} Daniel Tu</div>
 
           {githubInfo.stars && githubInfo.forks && (
