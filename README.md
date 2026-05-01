@@ -12,11 +12,13 @@
 
 ## 🚨 Forking this repo (please read!)
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+This portfolio was built using [Brittany Chiang's](https://brittanychiang.com) original template. Credit for the design and original implementation goes entirely to her.
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+Many people have contacted her asking if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
+She values keeping her site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever someone copies her site without giving credit. She spent a non-trivial amount of effort building and designing this iteration of her website, and she is proud of it! All she asks is that you do not claim this effort as your own.
+
+Please also note that she did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Gatsby docs](https://www.gatsbyjs.org/docs/).
 
 ### TL;DR
 
