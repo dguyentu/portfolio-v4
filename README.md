@@ -66,7 +66,7 @@ Yes, you can fork this repo. Please give me proper credit by linking back to [br
 
 If you encounter issues while setting up or running the project, here are some common problems and their solutions:
 
-### 1. `ENOENT: no such file or directory, lstat '/Users/dantu/git/profile-v4/.cache'`
+### 1. ENOENT: no such file or directory, lstat './.cache'
 
 This error typically indicates a corrupted Gatsby cache or a conflict with filesystem operations.
 
