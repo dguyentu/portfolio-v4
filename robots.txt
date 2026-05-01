@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://dguyentu.github.io/portfolio-v4/sitemap/sitemap-index.xml
+Host: https://dguyentu.github.io
